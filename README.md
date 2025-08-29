@@ -9,7 +9,7 @@ The code in this directory demonstrates how to infer the CSD laminar profile of 
 </p>
 
 
-This [notebook](notebooks/predicting_ripple_types_from_LFP_waveform.ipynb) illustrates how to use `rippleClassifier` to preprocess the LFP signal and classify ripples into distinct types during an exemplar session.
+This [notebook](./predicting_ripple_types_from_LFP_waveform.ipynb) illustrates how to use `rippleClassifier` to preprocess the LFP signal and classify ripples into distinct types during an exemplar session.
 
 The data was acquired using a 64-channel silicon probe spanning the CA1 somato-dendritic axis. LFP signals were sampled at 1250 Hz. Due to storage constraints, only ripple-aligned data from CA1 channels from one mouse sleep/rest session are provided. The data is stored in the `/data/` directory.
 
